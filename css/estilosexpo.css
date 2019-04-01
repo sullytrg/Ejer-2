@@ -1,0 +1,42 @@
+#tortuga 	{
+	width:50%;
+	height:50%;
+	display:block;
+	margin:auto;
+	border-left:10px dashed green;
+	border-right:10px dashed green;
+	
+	
+}
+
+#parte1 	{
+	background-image: url("../imagenes/fondo1.jpg");
+}
+
+.centrar	{
+	text-align:center;
+	
+}
+
+#titulo		{
+	background-color:#00CED1;
+	font-family:arial;
+}
+
+#relleno 	{
+	padding:30px;
+}
+
+#parr1 		{
+	font-family:times new roman;
+	font-size:large;
+}	
+
+#peque 		{
+	font-size:small;
+}
+
+#suelo 		{
+	width:50%;
+	height:50%;
+}
