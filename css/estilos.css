@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+}
+legend { 
+		/*border: 1px solid black*/
+		border-style:solid;
+		border-width:thin;
+		border-color:black;
+		border-radius:25px;
+		background-color:white;
+		}
+fieldset {
+			background-color:ligthgrey;
+			border-radius:25px;
+		}	 
+#fiel1	{
+		background-color:dddddd;
+}
+
+#fiel2	{
+		background-color:f2c19f;
+}
+
+#fiel3	{
+		background-color:d3bbca;
+}
