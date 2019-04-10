@@ -1,0 +1,52 @@
+table{
+	border-collapse:collapse;
+	text-align:center;
+	font-family:sans-serif;
+}
+
+td, th {
+	border: 1px solid lightpink;
+}
+
+caption{
+	background-color: lightpink;
+	font-size: 18px;
+}
+tbody tr th:first-child {
+	background-color:lightpink;
+	font-size:18px;
+}
+tbody tr:nth-child(3) td:nth-child(2){
+	background-color:lightgreen;
+}
+tr:nth-child(1) td:nth-child(6):hover,
+tr:nth-child(2) td:nth-child(3):hover,
+tr:nth-child(3) td:nth-child(2):hover,
+tr:nth-child(4) td:nth-child(3):hover
+ {
+	font-size: 1.8em;
+	background-color:gray;
+	color:green;
+}
+thead tr td p::firstletter{
+	font-size: 2em;
+	font-weight:bold;
+}
+
+input:required{
+	border: 1px solid lightpink;
+	padding: 10px;
+}
+
+label::affter {
+	color: red;
+	content: "*";
+	vertical-align:super;
+}
+
+
+form {
+	background-color:lightgreen;
+	color:gray;
+}
+
