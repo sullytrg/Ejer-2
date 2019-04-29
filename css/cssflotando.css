@@ -1,0 +1,39 @@
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.container {
+	background-color:lightgrey;
+	/*overflow-y:auto;*/
+	/*height:400px;*/
+	overflow:auto;
+	margin: 20px auto;
+	width:90%;
+	padding: 20px;
+}
+
+footer{
+	background-color:blue;
+	float:left;
+	height:290px;
+	width:70%;
+	margin-top:10px;
+	margin-left:5%;
+}
+
+article{
+	background-color:red;
+	float:left;
+	height:300px;
+	margin-left:5%;
+	width:20%;
+}
+
+.sidebar{
+	background-color:yellow;
+	float:left;
+	width:25%;
+	height:600px;
+	
+}
