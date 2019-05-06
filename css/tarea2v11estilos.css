@@ -1,0 +1,51 @@
+*{
+	box-sizing:border-box;
+	webkit-box-sizimg:border-box;
+}
+.container{
+	width:90%;
+	margin: 0px auto;
+}
+header{
+	height: 150px;
+	background-color:yellow;
+	text-align:center;
+	padding-top: 2em;
+}
+.red{
+	height: 150px;
+	background-color:red;
+}
+.blue{
+	height: 150px;
+	background-color:blue;
+}
+.green{
+	height: 150px;
+	background-color:green;
+}
+
+@media screen and (min-width:576px){
+	.red, .blue {
+		float:left;
+		width:50%;
+	}
+	.green {
+		float:left;
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.red, .blue, .green {
+		float:left;
+		width;33.33%;
+	}
+}
+
+@media screen and (orientation:landscape) {
+	header{
+		background-color: orange;
+		color: green;
+	}
+}
