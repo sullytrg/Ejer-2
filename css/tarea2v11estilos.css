@@ -39,7 +39,7 @@ header{
 @media screen and (min-width: 993px) {
 	.red, .blue, .green {
 		float:left;
-		width;33.33%;
+		width:33.33%;
 	}
 }
 
